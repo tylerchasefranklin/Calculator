@@ -2,6 +2,8 @@
 
 A simple calculator app built with React and powered by [Vite](https://vitejs.dev/) for fast development and optimized production builds.
 
+![Calculator Screenshot](images/React-Calculator_Screenshot.png)
+
 ## 🚀 Features
 
 - Basic calculator operations (add, subtract, multiply, divide)
