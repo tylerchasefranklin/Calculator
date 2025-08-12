@@ -2,12 +2,14 @@ import React from "react";
 import { Textfit } from "react-textfit";
 import "./Display.css";
 
-const Display = ({ value }) => {
+const Display = ({ expression, value }) => {
     return (
-        // Display output resize, longer values shrink in size
-        <Textfit className="display" mode="single" max={70}>
-            {value}
-        </Textfit>
+        <div className="display-wrapper">
+            <div className="expression">{expression}</div>
+            <Textfit className="display" mode="single" max={70}>
+                {value}
+            </Textfit>
+        </div>
     );
 };
 
